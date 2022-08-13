@@ -1,9 +1,10 @@
-body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+html{
     background-image: url("../assets/background.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
 }
 
@@ -75,6 +76,9 @@ nav ul li a:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.home{
+    margin: 5px;
 }
 .intro,.social{
     height: 100%;
