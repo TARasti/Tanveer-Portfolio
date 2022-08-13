@@ -236,6 +236,7 @@ nav ul li a:hover{
         left: -100%;
         transition: all .5s;
         background-color: black;
+        
     }
 
     nav ul li{
