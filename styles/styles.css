@@ -73,9 +73,9 @@ nav ul li a:hover{
 }
 
 .portfolio:hover{
-    color: aqua;
+    color: #FF0038;
     text-decoration: underline;
-    text-decoration-color: aqua;
+    text-decoration-color: #FF0038;
 }
 
 
@@ -233,6 +233,7 @@ nav ul li a:hover{
 /* media Query */
 
 @media (max-width: 1000px) {
+    /* Media Query for nav bar */
     .menu{
         display: block;
     }
@@ -261,6 +262,7 @@ nav ul li a:hover{
         padding: 10px;
     }
 
+    /* media query for home page items */
     .welcome{
         font-size: large;
     }
@@ -270,6 +272,8 @@ nav ul li a:hover{
     .title{
         font-size: small;
     }
+
+    /* media query for projects */
     .projects-detail{
         flex-direction: column;
         align-items: center;
@@ -289,10 +293,12 @@ nav ul li a:hover{
         width: 300px;
     }
 
+    /* media query for resume */
     .pdf-resume img{
         width: 330px;
     }
 
+    /* media query for about, contact and enducation */
     .about-us, .contact-detail, .education{
         margin: 10px;
         width: 200px;
