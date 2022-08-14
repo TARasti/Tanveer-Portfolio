@@ -132,6 +132,8 @@ nav ul li a:hover{
     background-color: blueviolet;
 }
 
+
+
 /* Social Style */
 
 .social{
@@ -257,6 +259,16 @@ nav ul li a:hover{
         display: block;
         line-height: 1.5;
         padding: 10px;
+    }
+
+    .welcome{
+        font-size: large;
+    }
+    .name{
+        font-size: medium;
+    }
+    .title{
+        font-size: small;
     }
     .projects-detail{
         flex-direction: column;
