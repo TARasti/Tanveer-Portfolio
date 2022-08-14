@@ -79,7 +79,7 @@ nav ul li a:hover{
     transform: translate(-50%, -50%);
 }
 .home{
-    margin: 5px;
+    margin-top: 10px;
 }
 .intro,.social{
     height: 100%;
@@ -159,6 +159,10 @@ nav ul li a:hover{
 }
 .project-card .disc{
     color: grey;
+}
+
+.project-card img{
+    object-fit: cover;
 }
 
 
@@ -260,6 +264,7 @@ nav ul li a:hover{
     }
 
     .project-card img{
+        object-fit: contain;
         width: 300px;
     }
 
