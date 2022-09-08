@@ -299,6 +299,9 @@ nav ul li a:hover{
     }
 
     /* media query for about, contact and enducation */
+    .contacts h2{
+        font-size: large;
+    }
     .about-us, .contact-detail, .education{
         margin: 10px;
         width: 200px;
